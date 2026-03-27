@@ -12,8 +12,8 @@
 | 第1章：系统全局架构 | 第一部分-架构全景/ch01-system-architecture.md | ✅ | 2026-03-27 |
 | 第2章：入口与启动流程 | 第一部分-架构全景/ch02-entry-bootstrap.md | ✅ | 2026-03-27 |
 | 第3章：类型系统与共享基础设施 | 第一部分-架构全景/ch03-types-infra.md | ✅ | 2026-03-27 |
-| 第4章：Gateway 服务器 | 第二部分-Gateway控制平面/ch04-gateway.md | 🔄 | - |
-| 第5章：消息路由引擎 | 第二部分-Gateway控制平面/ch05-routing.md | ⏳ | - |
+| 第4章：Gateway 服务器 | 第二部分-Gateway控制平面/ch04-gateway.md | ✅ | 2026-03-27 |
+| 第5章：消息路由引擎 | 第二部分-Gateway控制平面/ch05-routing.md | 🔄 | - |
 | 第6章：Session 会话管理 | 第二部分-Gateway控制平面/ch06-sessions.md | ⏳ | - |
 | 第7章：Pi Agent 核心 | 第三部分-Agent运行时/ch07-agent-runtime.md | ⏳ | - |
 | 第8章：上下文引擎 | 第三部分-Agent运行时/ch08-context-engine.md | ⏳ | - |
@@ -35,8 +35,8 @@
 ## 下次续写指引
 
 ### 从哪里继续
-- 下一章编号：第4章
-- 下一章标题：Gateway 服务器
+- 下一章编号：第5章
+- 下一章标题：消息路由引擎
 
 ### 已知待补充项
 - ch01 `src/auto-reply/reply/commands-bash.ts` 的具体 tool handler 注册方式 [需源码验证]
