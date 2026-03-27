@@ -8,10 +8,10 @@
 | 2 | 数据流全景 | ch02-data-flows.md | 消息接收、Agent 处理、消息发送、媒体流转、插件调用、Gateway 生命周期等典型场景的完整数据流 | ✅ |
 | 3 | Gateway：系统心脏 | ch03-gateway.md | HTTP/WS 服务器、RPC 协议、方法注册、连接认证、配置热重载、发现服务、健康监控 | ✅ |
 | 4 | Agent 引擎：从提示到回答 | ch04-agent-engine.md | PI Embedded Runner、执行循环、重试/回退、System Prompt 构建、流式输出、使用量追踪 | ✅ |
-| 5 | Channel 系统：多平台消息适配 | ch05-channels.md | Channel Plugin 架构、适配器体系、消息归一化、能力声明、线程绑定、出站适配 | ⏳ |
-| 6 | 路由与会话 | ch06-routing-sessions.md | 路由决策树、Binding 匹配、Session Key 构建、会话生命周期、转录持久化 | ⏳ |
-| 7 | 插件系统 | ch07-plugin-system.md | 发现→注册→加载→执行、Plugin SDK 公共表面、Hook 机制、运行时 API、插件配置 Schema | ⏳ |
-| 8 | 配置体系 | ch08-config.md | Zod Schema 体系、配置加载/合并、热重载计划、配置文档生成、漂移检测 | ⏳ |
+| 5 | Channel 系统：多平台消息适配 | ch05-channels.md | Channel Plugin 架构、适配器体系、消息归一化、能力声明、线程绑定、出站适配 | ✅ |
+| 6 | 路由与会话 | ch06-routing-sessions.md | 路由决策树、Binding 匹配、Session Key 构建、会话生命周期、转录持久化 | ✅ |
+| 7 | 插件系统 | ch07-plugin-system.md | 发现→注册→加载→执行、Plugin SDK 公共表面、Hook 机制、运行时 API、插件配置 Schema | ✅ |
+| 8 | 配置体系 | ch08-config.md | Zod Schema 体系、配置加载/合并、热重载计划、配置文档生成、漂移检测 | ✅ |
 | 9 | 媒体管道 | ch09-media.md | 图片/音频/视频/PDF 处理、FFmpeg 集成、媒体存储与服务、入站/出站媒体路径 | ⏳ |
 | 10 | 安全体系 | ch10-security.md | 安全审计框架、执行审批、路径守卫、沙箱隔离、通道安全策略、密钥管理 | ⏳ |
 | 11 | 命令系统 (CLI) | ch11-cli.md | Commander 骨架、命令注册、Doctor 诊断、Onboard 流程、交互式向导 | ⏳ |
