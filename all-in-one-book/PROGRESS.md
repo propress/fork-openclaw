@@ -12,12 +12,12 @@
 | 6 | 路由与会话 | ch06-routing-sessions.md | 路由决策树、Binding 匹配、Session Key 构建、会话生命周期、转录持久化 | ✅ |
 | 7 | 插件系统 | ch07-plugin-system.md | 发现→注册→加载→执行、Plugin SDK 公共表面、Hook 机制、运行时 API、插件配置 Schema | ✅ |
 | 8 | 配置体系 | ch08-config.md | Zod Schema 体系、配置加载/合并、热重载计划、配置文档生成、漂移检测 | ✅ |
-| 9 | 媒体管道 | ch09-media.md | 图片/音频/视频/PDF 处理、FFmpeg 集成、媒体存储与服务、入站/出站媒体路径 | ⏳ |
-| 10 | 安全体系 | ch10-security.md | 安全审计框架、执行审批、路径守卫、沙箱隔离、通道安全策略、密钥管理 | ⏳ |
-| 11 | 命令系统 (CLI) | ch11-cli.md | Commander 骨架、命令注册、Doctor 诊断、Onboard 流程、交互式向导 | ⏳ |
-| 12 | Web UI 控制面 | ch12-web-ui.md | Lit.js 架构、Gateway WebSocket 连接、聊天流式渲染、Canvas Host | ⏳ |
-| 13 | 原生客户端 | ch13-native-apps.md | iOS (Swift/SwiftUI)、Android (Kotlin/Compose)、macOS 应用、设备配对协议 | ⏳ |
-| 14 | 上下文引擎与压缩 | ch14-context-engine.md | Context Engine 接口、注册/解析、Token 预算、压缩策略、Legacy 引擎、自定义引擎 | ⏳ |
+| 9 | 媒体管道 | ch09-media.md | 图片/音频/视频/PDF 处理、FFmpeg 集成、媒体存储与服务、入站/出站媒体路径 | ✅ |
+| 10 | 安全体系 | ch10-security.md | 安全审计框架、执行审批、路径守卫、沙箱隔离、通道安全策略、密钥管理 | ✅ |
+| 11 | 命令系统 (CLI) | ch11-cli.md | Commander 骨架、命令注册、Doctor 诊断、Onboard 流程、交互式向导 | ✅ |
+| 12 | Web UI 控制面 | ch12-web-ui.md | Lit.js 架构、Gateway WebSocket 连接、聊天流式渲染、Canvas Host | ✅ |
+| 13 | 原生客户端 | ch13-native-apps.md | iOS (Swift/SwiftUI)、Android (Kotlin/Compose)、macOS 应用、设备配对协议 | ✅ |
+| 14 | 上下文引擎与压缩 | ch14-context-engine.md | Context Engine 接口、注册/解析、Token 预算、压缩策略、Legacy 引擎、自定义引擎 | ✅ |
 | 15 | 模型与 Provider | ch15-models-providers.md | Model Catalog、Auth Profile 轮转、Provider 插件、模型回退链、动态模型解析、定价缓存 | ⏳ |
 | 16 | 工具与技能 | ch16-tools-skills.md | Bash 工具、Agent 工具注册、技能快照、工具 Schema 约束、执行审批流 | ⏳ |
 | 17 | 子 Agent 与编排 | ch17-subagents.md | Subagent Registry、Spawn 生命周期、父子通信、完成公告、层级会话 | ⏳ |
