@@ -5,7 +5,7 @@
 | # | 章节标题 | 文件名 | 核心覆盖 | 状态 |
 |---|---------|--------|---------|------|
 | 1 | 序言：全局视角 | ch01-overview.md | 项目定位、设计哲学、架构全景图、核心概念词典、代码库地图、典型交互极简全流程 | ✅ |
-| 2 | 数据流全景 | ch02-data-flows.md | 消息接收、Agent 处理、消息发送、媒体流转、插件调用、Gateway 生命周期等典型场景的完整数据流 | ⏳ |
+| 2 | 数据流全景 | ch02-data-flows.md | 消息接收、Agent 处理、消息发送、媒体流转、插件调用、Gateway 生命周期等典型场景的完整数据流 | ✅ |
 | 3 | Gateway：系统心脏 | ch03-gateway.md | HTTP/WS 服务器、RPC 协议、方法注册、连接认证、配置热重载、发现服务、健康监控 | ⏳ |
 | 4 | Agent 引擎：从提示到回答 | ch04-agent-engine.md | PI Embedded Runner、执行循环、重试/回退、System Prompt 构建、流式输出、使用量追踪 | ⏳ |
 | 5 | Channel 系统：多平台消息适配 | ch05-channels.md | Channel Plugin 架构、适配器体系、消息归一化、能力声明、线程绑定、出站适配 | ⏳ |
