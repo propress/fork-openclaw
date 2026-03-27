@@ -10,8 +10,8 @@
 | 章节 | 文件路径 | 状态 | 完成日期 |
 |------|----------|------|----------|
 | 第1章：系统全局架构 | 第一部分-架构全景/ch01-system-architecture.md | ✅ | 2026-03-27 |
-| 第2章：入口与启动流程 | 第一部分-架构全景/ch02-entry-bootstrap.md | 🔄 | - |
-| 第3章：类型系统与共享基础设施 | 第一部分-架构全景/ch03-types-infra.md | ⏳ | - |
+| 第2章：入口与启动流程 | 第一部分-架构全景/ch02-entry-bootstrap.md | ✅ | 2026-03-27 |
+| 第3章：类型系统与共享基础设施 | 第一部分-架构全景/ch03-types-infra.md | 🔄 | - |
 | 第4章：Gateway 服务器 | 第二部分-Gateway控制平面/ch04-gateway.md | ⏳ | - |
 | 第5章：消息路由引擎 | 第二部分-Gateway控制平面/ch05-routing.md | ⏳ | - |
 | 第6章：Session 会话管理 | 第二部分-Gateway控制平面/ch06-sessions.md | ⏳ | - |
@@ -35,11 +35,12 @@
 ## 下次续写指引
 
 ### 从哪里继续
-- 下一章编号：第2章
-- 下一章标题：入口与启动流程
+- 下一章编号：第3章
+- 下一章标题：类型系统与共享基础设施
 
 ### 已知待补充项
 - ch01 `src/auto-reply/reply/commands-bash.ts` 的具体 tool handler 注册方式 [需源码验证]
+- ch02 `tryRouteCli()` 的具体内置别名列表 [需源码验证]
 
 ### 质量基线回顾（下次续写前必读）
 - 全书术语约定：Gateway=网关控制平面, Agent=智能体运行时, Channel=频道适配层, Session=会话, Binding=路由绑定, Plugin=插件, Hook=生命周期钩子, Lane=命令车道, Context Engine=上下文引擎
