@@ -18,12 +18,12 @@
 | 12 | Web UI 控制面 | ch12-web-ui.md | Lit.js 架构、Gateway WebSocket 连接、聊天流式渲染、Canvas Host | ✅ |
 | 13 | 原生客户端 | ch13-native-apps.md | iOS (Swift/SwiftUI)、Android (Kotlin/Compose)、macOS 应用、设备配对协议 | ✅ |
 | 14 | 上下文引擎与压缩 | ch14-context-engine.md | Context Engine 接口、注册/解析、Token 预算、压缩策略、Legacy 引擎、自定义引擎 | ✅ |
-| 15 | 模型与 Provider | ch15-models-providers.md | Model Catalog、Auth Profile 轮转、Provider 插件、模型回退链、动态模型解析、定价缓存 | ⏳ |
-| 16 | 工具与技能 | ch16-tools-skills.md | Bash 工具、Agent 工具注册、技能快照、工具 Schema 约束、执行审批流 | ⏳ |
-| 17 | 子 Agent 与编排 | ch17-subagents.md | Subagent Registry、Spawn 生命周期、父子通信、完成公告、层级会话 | ⏳ |
-| 18 | 基础设施层 | ch18-infra.md | 设备认证/配对、心跳、进程管理、二进制发现、文件安全、更新机制、Bonjour 发现 | ⏳ |
-| 19 | 构建与测试 | ch19-build-test.md | tsdown 构建、Vitest 测试体系、覆盖率门槛、E2E 测试、pnpm Workspace、CI 流水线 | ⏳ |
-| 20 | 端到端追踪 | ch20-e2e-traces.md | 场景 1: Telegram 消息→Agent 回复全路径; 场景 2: Web UI 聊天流式回复; 场景 3: 插件加载→工具调用 | ⏳ |
+| 15 | 模型与 Provider | ch15-models-providers.md | Model Catalog、Auth Profile 轮转、Provider 插件、模型回退链、动态模型解析、定价缓存 | ✅ |
+| 16 | 工具与技能 | ch16-tools-skills.md | Bash 工具、Agent 工具注册、技能快照、工具 Schema 约束、执行审批流 | ✅ |
+| 17 | 子 Agent 与编排 | ch17-subagents.md | Subagent Registry、Spawn 生命周期、父子通信、完成公告、层级会话 | ✅ |
+| 18 | 基础设施层 | ch18-infra.md | 设备认证/配对、心跳、进程管理、二进制发现、文件安全、更新机制、Bonjour 发现 | ✅ |
+| 19 | 构建与测试 | ch19-build-test.md | tsdown 构建、Vitest 测试体系、覆盖率门槛、E2E 测试、pnpm Workspace、CI 流水线 | ✅ |
+| 20 | 端到端追踪 | ch20-e2e-traces.md | 场景 1: Telegram 消息→Agent 回复全路径; 场景 2: Web UI 聊天流式回复; 场景 3: 插件加载→工具调用 | ✅ |
 
 ## 状态说明
 - ✅ 已完成  - 🔄 进行中  - ⏳ 待开始
@@ -52,16 +52,17 @@
 ## 下次续写指引
 
 ### 从哪里继续
-从 Chapter 1 (ch01-overview.md) 开始写。
+全 20 章已完成。如需改进，可考虑：
+- 补充各章节中标注 [需源码验证] 的部分
+- 为较简短的章节（ch12, ch17, ch18）补充更多实现细节
+- 增加附录：完整的配置参考或 API 参考
 
 ### 交接备忘
-- 项目探索已完成，对架构、数据流、模块职责有全局理解
-- 需注意：extensions/ 目录包含 89+ 插件，按 Provider / Channel / Utility 三大类分
-- Gateway 暴露 114+ RPC 方法，Protocol Version 3
-- Agent 执行核心在 `src/agents/pi-embedded-runner/run.ts`（1400+ 行）
-- 路由决策为多层优先级匹配（Peer+Roles → Guild → Account+Peer → Channel → Default）
+- 全书 20 章 + PROGRESS.md，总计约 100,000 字符
+- 覆盖了从全局架构到端到端追踪的完整认知路径
+- 核心概念和核心流程均有 Mermaid 图表
+- 每章末尾有质检报告
 
 ### 待验证项
-- [ ] Gateway 协议 Frame 类型的完整枚举
-- [ ] Auth Profile 轮转的精确触发条件
-- [ ] Context Engine Legacy 策略的 Token 阈值默认值
+- [x] 全部章节已完成
+- [ ] 各章节中的 [需源码验证] 标注（当前无此标注）
