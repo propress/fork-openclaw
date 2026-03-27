@@ -17,7 +17,7 @@
 | 第6章：Session 会话管理 | 第二部分-Gateway控制平面/ch06-sessions.md | ✅ | 2026-03-27 |
 | 第7章：Pi Agent 核心 | 第三部分-Agent运行时/ch07-agent-runtime.md | ✅ | 2026-03-27 |
 | 第8章：上下文引擎 | 第三部分-Agent运行时/ch08-context-engine.md | ✅ | 2026-03-27 |
-| 第9章：工具系统 | 第三部分-Agent运行时/ch09-tools.md | ⏳ | - |
+| 第9章：工具系统 | 第三部分-Agent运行时/ch09-tools.md | ✅ | 2026-03-27 |
 | 第10章：频道抽象层 | 第四部分-频道系统/ch10-channels.md | ⏳ | - |
 | 第11章：典型频道实现 | 第四部分-频道系统/ch11-channel-impls.md | ⏳ | - |
 | 第12章：媒体管道 | 第五部分-媒体与理解/ch12-media.md | ⏳ | - |
@@ -35,8 +35,8 @@
 ## 下次续写指引
 
 ### 从哪里继续
-- 下一章编号：第9章
-- 下一章标题：工具系统
+- 下一章编号：第10章
+- 下一章标题：频道抽象层
 
 ### 已知待补充项
 - ch01 `src/auto-reply/reply/commands-bash.ts` 的具体 tool handler 注册方式 [需源码验证]
