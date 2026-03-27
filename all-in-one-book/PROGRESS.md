@@ -24,19 +24,19 @@
 | 第13章：插件架构 | 第六部分-扩展与插件/ch13-plugins.md | ✅ | 2026-03-27 |
 | 第14章：Skills 系统 | 第六部分-扩展与插件/ch14-skills.md | ✅ | 2026-03-27 |
 | 第15章：安全模型 | 第七部分-安全系统/ch15-security.md | ✅ | 2026-03-27 |
-| 第16章：macOS + Swabble | 第八部分-跨平台客户端/ch16-macos.md | ⏳ | - |
-| 第17章：Android App | 第八部分-跨平台客户端/ch17-android.md | ⏳ | - |
-| 第18章：Node 设备系统 | 第八部分-跨平台客户端/ch18-node-host.md | ⏳ | - |
-| 第19章：Control UI 与 WebChat | 第九部分-前端/ch19-frontend.md | ⏳ | - |
-| 第20章：Monorepo 与构建 | 第十部分-构建与工程/ch20-build.md | ⏳ | - |
-| 第21章：关键路径追踪 | 第十一部分-端到端追踪/ch21-e2e-traces.md | ⏳ | - |
+| 第16章：macOS + Swabble | 第八部分-跨平台客户端/ch16-macos.md | ✅ | 2026-03-27 |
+| 第17章：Android App | 第八部分-跨平台客户端/ch17-android.md | ✅ | 2026-03-27 |
+| 第18章：Node 设备系统 | 第八部分-跨平台客户端/ch18-node-host.md | ✅ | 2026-03-27 |
+| 第19章：Control UI 与 WebChat | 第九部分-前端/ch19-frontend.md | ✅ | 2026-03-27 |
+| 第20章：Monorepo 与构建 | 第十部分-构建与工程/ch20-build.md | ✅ | 2026-03-27 |
+| 第21章：关键路径追踪 | 第十一部分-端到端追踪/ch21-e2e-traces.md | 🔄 | - |
 | 附录 | 附录/appendix.md | ⏳ | - |
 
 ## 下次续写指引
 
 ### 从哪里继续
-- 下一章编号：第16章
-- 下一章标题：macOS + Swabble
+- 下一章编号：第21章
+- 下一章标题：关键路径追踪
 
 ### 已知待补充项
 - ch01 `src/auto-reply/reply/commands-bash.ts` 的具体 tool handler 注册方式 [需源码验证]
